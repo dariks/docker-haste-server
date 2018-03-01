@@ -1,4 +1,4 @@
-FROM node:9.6.1-slim
+FROM node:9.6.1-stretch
 MAINTAINER Daniel Rippen <rippendaniel@gmail.com>
 
 RUN git clone https://github.com/seejohnrun/haste-server.git /hastebin
