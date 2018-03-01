@@ -1,5 +1,5 @@
-FROM node:0.10.40
-MAINTAINER AnthoDingo <lsbdu42@gmail.com>
+FROM node:9.6.1-slim
+MAINTAINER Daniel Rippen <rippendaniel@gmail.com>
 
 RUN git clone https://github.com/seejohnrun/haste-server.git /hastebin
 
