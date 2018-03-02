@@ -4,7 +4,7 @@ MAINTAINER Daniel Rippen <rippendaniel@gmail.com>
 ENV DEBIAN_FRONTEND noninteractive
 RUN export LANG=C.UTF-8 && \
     apt-get update && \
-    apt-get install redis-server && \
+    apt-get -y install redis-server && \
     rm -rf /var/lib/apt/lists/*
 
 RUN git clone https://github.com/seejohnrun/haste-server.git /hastebin
